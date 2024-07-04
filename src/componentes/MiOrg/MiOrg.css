@@ -1,0 +1,23 @@
+.orgSection {
+    display: flex;
+    align-content: center;
+}
+
+h3 {
+    align-self: center;
+    width: 33%
+}
+
+h5 {
+    width: 33%;
+}
+
+h3+div {
+    width: 33%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+img {
+    cursor: pointer;
+}
