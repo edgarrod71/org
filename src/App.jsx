@@ -10,7 +10,7 @@ import Func from './componentes/funciones.jsx'
 
 function App() {
   /// ESTADOS ( H O O K S )
-  const [formularioVisible, setFormularioVisible] = useState(true)
+  const [formularioVisible, setFormularioVisible] = useState(false)
   const [colaboradores, setColaboradores] = useState([]) //Data.participantes)
   const [/* fondos */, setDataFondos] = useState(Data.fondos) // OJO, NO ESTOY USANDO VARIABLE TIPO GET EN ESTE HOOK!!!
   const [/* equipos */, setNuevoEquipo] = useState(Data.equipos)
@@ -63,8 +63,8 @@ function App() {
           Data.fondos.push(equipo.colorEquipo.toString())
           Data.destaques.push(Func.darker(equipo.colorEquipo.toString()))
           
-          let l = Data.destaques.length - 1
-          console.log("RECIBE: ", equipo.nomEquipo, equipo.colorEquipo, Data.fondos[l].toString(), Data.destaques[l].toString())
+          //let l = Data.destaques.length - 1
+          //console.log("RECIBE: ", equipo.nomEquipo, equipo.colorEquipo, Data.fondos[l].toString(), Data.destaques[l].toString())
 
 /*          let nuevaOpcion = document.createElement('option')
           nuevaOpcion.textContent = equipo.nomEquipo

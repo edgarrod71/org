@@ -26,7 +26,7 @@ const MiOrg = (props) => {
                 {muestraO && <h5></h5>} 
                 <h3>Mi Organización</h3>
                 <div>
-                    <img src="src/img/add.png" alt="Agregar" onClick={props.funcCambiarMostrar}/>
+                    <img src="./src/img/add.png" alt="Agregar" onClick={props.funcCambiarMostrar}/>
                 </div>
             </section>
             <section className='orgPanel'>
