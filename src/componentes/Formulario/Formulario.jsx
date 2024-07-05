@@ -30,11 +30,11 @@ const Formulario = (props) => {
     
     const [nomEquipo, setNomEquipo] = useState("")
     const [colorEquipo, setColorEquipo] = useState(Func.randomColor())
-    console.log("COLOR ", colorEquipo)
+    //console.log("COLOR ", colorEquipo)
     
     const manejarEquipo = (e) => {
         e.preventDefault()
-        console.log("NUEVO EQUIPO: ", nomEquipo, colorEquipo)
+        //console.log("NUEVO EQUIPO: ", nomEquipo, colorEquipo)
         nuevoEquipo({nomEquipo, colorEquipo})
     }
     
@@ -55,13 +55,13 @@ const Formulario = (props) => {
                </Boton>
            </form>
         <form onSubmit={manejarEquipo}>
-               <h2>Define un nuevo Equipo</h2>
+               <h2>Definete un nuevo Equipo</h2>
                 <Campo Titulo="Nombre" placeholder="Cómo se llamará el equipo?" required
                             valor={nomEquipo} updateField={setNomEquipo} />        
                 <Campo Titulo="Color" placeholder="Ponle un color en HEX" required
                             valor={colorEquipo} updateField={setColorEquipo} tipo="color" /> 
                <Boton>Crear equipo
-                   <img src="src/img/Logo.png" alt="LOGO"/>
+                   <img src="./src/img/Logo.png" alt="LOGO"/>
                </Boton>             
         </form>
        </section> 
