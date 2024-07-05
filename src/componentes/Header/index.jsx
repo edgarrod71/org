@@ -9,7 +9,7 @@ class Header extends Component {
         return (
             <>
             <section className="header">
-               <img src="./src/img/header.png" alt="Si sale solo Org es porque hay problemas para la imagen"/>
+               <img src="./src/img/header.png" alt="Si sale solo Org es porque hay problemas para la imag"/>
             </section>
             </>
         );
