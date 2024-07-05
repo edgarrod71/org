@@ -61,7 +61,7 @@ const Formulario = (props) => {
                 <Campo Titulo="Color" placeholder="Ponle un color en HEX" required
                             valor={colorEquipo} updateField={setColorEquipo} tipo="color" /> 
                <Boton>Crear equipo
-                   <img src="./src/img/Logo.png" alt="LOGO"/>
+                   <img src="./img/Logo.png" alt="LOGO"/>
                </Boton>             
         </form>
        </section> 
