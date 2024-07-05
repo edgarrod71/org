@@ -9,7 +9,7 @@ class Header extends Component {
         return (
             <>
             <section className="header">
-               <img src="/org/src/img/header.png" alt="Org"/>
+               <img src="./src/img/header.png" alt="Org"/>
             </section>
             </>
         );
